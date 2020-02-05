@@ -2,7 +2,6 @@
 a = int(input("Укажите длину списка "))
 b = int(input("Укажите максимально возможное значение элемента списка "))
 import random
-
 x = (random.choices(range(b), k=a))
 for i in x:
     if i > 7:
